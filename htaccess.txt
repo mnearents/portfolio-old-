@@ -1,0 +1,7 @@
+# BEGIN Allow access from all domains for webfonts
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css)$">
+	<IfModule mod_headers.c>
+		Header set Access-Control-Allow-Origin "*"
+	</IfModule>
+</FilesMatch>
+# END Allow access from all domains for webfonts

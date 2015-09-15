@@ -1,0 +1,393 @@
+#project-wrapper {
+ 	height: 100%; 
+    width: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+div#project {
+    display: none;
+ background: transparent; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+}
+
+div#projectHeader ul li.chevron:hover a span, a#exit:hover span {
+    color: rgb(83, 193, 157);  
+}
+
+
+
+.scroll-down-indicator {
+ 	text-align: center;
+  width: 100%;
+  font-size: 3em;
+  color: #000;
+  cursor: pointer;
+  
+}
+
+.scroll-down-indicator:hover {
+    background: hsla(0, 0%, 100%, 0.70);
+    color: rgb(83, 193, 157);
+}
+
+.no-bg {
+
+}
+
+html body div#project-wrapper ul.no-list-style {
+    list-style-type: none;   
+}
+
+#bigbg {
+ position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-image: url("/images/audio-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;
+  	padding: 0;
+}
+
+#bigbg.bigaudiothrive {
+ background-image: url("/images/large-audio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;   
+}
+
+#bigbg.bigscandia {
+ background-image: url("/images/large-scandia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;   
+}
+
+#bigbg.bigibm {
+ background-image: url("/images/large-ibm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;   s
+}
+
+#bigbg.bigschool {
+     background-image: url("/images/large-school.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center; 
+}
+
+#bigbg.bigmyfastpc {
+     background-image: url("/images/large-myfastpc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center; 
+}
+
+#bigbg.bigeasydial {
+     background-image: url("/images/large-easydial.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center; 
+}
+
+#bigbg.bigvirtualenvelopes {
+     background-image: url("/images/large-virtualenvelopes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center; 
+}
+
+.push {
+ 	height:0;
+  background: transparent;
+}
+
+div#projectHeader {
+    display: block;
+  background: #fff;
+    padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1002;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+div#projectHeader ul li a, div#projectHeader ul li a span {
+    color: #424242;   
+}
+
+.mobileTitle {
+    width: auto;   
+}
+
+div#projectHeader #lowerNav ul li {
+    display: inline-block;
+  	height: 100%;
+
+  height: 50px;
+  width: 100px;
+}
+
+div#projectHeader #lowerNav ul li a {
+
+  height: 50px;
+  padding-top: 15px;
+  
+}
+
+div#projectHeader #lowerNav {
+ 	margin-top: 0;
+  height: 100%;
+
+}
+
+.content {
+    padding: 0;
+
+  height: 100%;
+}
+
+.project-content {
+
+    padding: 30px 0;
+  background: #fff;
+
+}
+
+.project-content .project-content-inner {
+       background: #fff;
+        height: 100%;
+        padding: 20px;
+}
+
+div.section.project-summary {
+	width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+	
+}
+
+#summary {
+   background: #F9B419;
+  color: #fff;
+}
+
+#summary a {
+ 	color: #fff;
+  text-decoration: underline;
+}
+
+div.section.project-summary div.container {
+ 	
+
+  padding: 20px;
+    margin: 0 auto;
+}
+
+div.section.project-summary #summary-wrapper {
+    position: absolute;
+  bottom: 0px;
+  left: 0px;
+    width: 100%;
+  
+}
+
+
+
+div#project-vd {
+ 	background: #f2f2f2; 
+}
+
+div.section.project-summary h1 {
+text-align: center;
+}
+
+#project-wrapper ul {
+ 	color: #000;
+  list-style-type: decimal;
+  padding-left: 20px;
+  font-weight: normal;
+   letter-spacing: 0;
+}
+
+h2.headline {
+ 	background: #f2f2f2;
+  font-size: 1em;
+  padding: 15px 10px;
+}
+
+h2.headline-grey {
+    background: #e2e2e2;
+    font-size: 1em;
+    padding: 15px 10px;
+}
+
+#project-wrapper h3 {
+ 	font-size: 1em;
+  font-weight: 700;
+}
+
+
+div.image-block div a img {
+ 	width: 100%;
+  max-width: 100%;
+}
+
+/* twisty styling */
+
+div.twisty {
+   width: 100%;
+    margin-left: 0;
+}
+
+div.twisty-top {
+  border: 1px solid #aaa;
+  padding: 5px;
+  border-radius: 3px;
+  padding-left: 10px;
+  width: 100%;
+  margin-left: 0;
+  background: #f2f2f2;
+    color: rgb(83, 193, 157);
+}
+
+span.twisty-caret {
+ 	cursor: pointer; 
+  width: 12px;
+
+}
+
+span.twisty-title {
+ 	padding-left: 5px;
+
+}
+
+div.twisty-expansion {
+     display: none; 
+      padding: 10px;
+    padding-top: 13px;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin-top: -3px;
+}
+
+div.twisty-expansion p {
+    font-size: .9em;
+    color: #666;
+    cursor: pointer;
+}
+
+div.twisty-top:hover {
+  cursor: pointer;
+  background: rgb(83, 193, 157);
+    color: #fff;
+  height: 100%;
+}
+
+dt {
+ 	font-weight: normal;
+  list-style-type:
+}
+
+dd {
+ 	margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: .9em;
+}
+
+.image-block {
+ 	padding: 30px 0 30px 0; 
+  margin-bottom: 10px;
+}
+
+#project-wrapper ul.list-none {
+    list-style-type: none;   
+}
+
+#project-footer {
+    background: #F9B419;
+    color: #fff;
+    height: 300px;
+    padding: 40px;
+    height: auto;
+}
+
+#project-footer ul#footernav li a, footer ul#footerinfonav li a {
+    color: #fff;
+    background: transparent;
+    display: block;
+}
+
+#project-footer ul#footernav li a:hover, #project-footer ul#footernav li a:hover {
+    background: transparent;
+    text-decoration: underline;
+    
+}
+
+#project-footer ul li, #project-footer ul li {
+    display: block;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+#project-footer ul#footernav {
+ 	padding-left: 0; 
+}
+
+.bump {
+    margin-top: 25px;   
+}
+
+.height0 {
+    height: 0px !important;
+    padding: 0px !important;
+}
+
+@media (max-width: 768px) { 
+    
+
+    div#projectHeader ul.mobileTitle li{
+        width: 30%;  
+        display: inline-block;
+    }
+
+    div#projectHeader ul.mobileTitle li.titleli {
+        margin-left: -30px;
+        margin-right: 30px; /*this won't be even*/
+    }
+
+    div#projectHeader ul.mobileTitle {
+        padding: 0;
+        width: 200px;
+    }
+
+    
+}

@@ -1,0 +1,434 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300);
+
+
+html {
+    width: 100%;
+    height: 100%;
+/*    overflow-x: hidden;*/
+}
+
+body {
+    overflow-x: hidden; 
+  	height: 100%;
+        font-family: 'Source Code Pro';
+    font-weight: 400;
+    background-color: #fff;
+}
+
+html body div#logo h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #424242;
+    text-decoration: none;
+    padding-left: 0;
+} 
+
+ul{
+    font-weight: 300;
+    text-decoration: none;
+    padding-left: 0;
+    list-style-type: none;
+} 
+
+html body div.jumbotron div.container h1, .content h1 {
+ 	text-align: center;
+  font-family: 'Source Code Pro', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em !important;
+  margin-bottom: 25px;
+  margin-top: 0;
+    font-weight: 400;
+}
+
+div#project-wrapper h1 {
+    text-align: left;   
+}
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.jumbotron {
+    margin-bottom: 0;   
+}
+
+.float-none {
+    float: none;   
+}
+
+.col-md-3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#disappear {
+    position: relative; 
+    height: 100%;
+}
+
+
+/* ************************************** portfolio ********************************************** */
+
+
+
+/* filtering mechanism */
+
+ul#filter-ul li:hover, ul#filter-ul li.selected {
+    background: #F9B419;
+    color: #fff;
+}
+
+#filter-container {
+    text-align: center;   
+}
+
+#filter-container {
+    margin-bottom: 20px;   
+}
+
+ul#filter-ul {
+ 	list-style-type: none;
+   
+}
+
+ul#filter-ul li {
+ 	display: inline-block;
+  color: black;
+  background: #f2f2f2;
+  	width: 150px;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: 400;
+        margin: 0px 8px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+  		cursor: pointer;
+}
+
+/*
+div#port-settings ul li {
+ 	color: #666; 
+  font-size: .8em;
+  padding: 0 5px;
+  cursor: pointer;
+    list-style-type: none;
+    display: inline;
+}
+
+div#port-settings ul li:hover {
+ 	color: rgb(83, 193, 157);
+}
+
+div#port-settings ul li.chosen {
+ 	color:  rgb(83, 193, 157);
+}
+
+div#port-settings {
+ 	
+height: 35px;
+  width: auto;
+  color: #666;
+       
+}
+
+div#port-settings span {
+ 	float: left;
+  width: 40px;
+    font-size: .8em;
+margin-top: 4px;
+
+  
+}
+
+div#port-settings ul li.filterMobile {
+    width: 50px;
+    float: right;
+    text-align: right;
+    font-size: 2em;
+    position: relative;
+    overflow: visible;
+}
+
+div#mobFilterDiv {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: 1000;
+    background: #fff;
+    font-size: .8em;
+    font-family: 'Source Code Pro', Arial, sans-serif; 
+    padding: 20px;  
+    width: 300px;
+    text-align: left;
+}
+
+div#mobFilterDiv label {
+    font-size: .7em;
+    padding-left: 20px;  
+    font-weight: 300;
+}
+
+div#mobFilterDiv:hover label {
+    color: #666666;
+}   
+
+div#port-settings ul li.filterMobile:hover div#mobFilterDiv label {
+    color: #666666;   
+}
+*/
+
+div.tile-container div#port-settings ul.filterUl li.filter {
+    display: block;
+    padding: 20px;
+}
+
+div.tile-container div#port-settings ul.filterUl li.filter.selected {
+    color: rgb(83, 193, 157);
+}
+
+#container {
+    background: #fff;
+    position: relative;
+    min-height: 850px;
+}
+
+.desktop-tile-row .tile {
+  color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  height: auto;
+    min-height: 300px;
+    position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.desktop-tile-row .tile.ibm {
+    background: url("../images/tile-ibm.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.mcgraw {
+    background: url("../images/tile-mcgraw.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.scandia {
+    background: url("../images/tile-scandia.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.school {
+    background: url("../images/tile-school.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.audiothrive {
+    background: url("../images/tile-audiomesh.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.myfastpc {
+    background: url("../images/tile-myfastpc.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.logos {
+    background: url("../images/scandia-coaster.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.scripturegames {
+    background: url("../images/nmsu.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.easydial {
+    background: url("../images/tile-easydial.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.virtualenvelopes {
+    background: url("../images/scandia-coaster.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.tempProject {
+    background: url("../images/temp-image.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.tile a {
+ text-decoration: none;   
+}
+
+
+
+.tile-content {
+    background-color: hsla(0, 0%, 100%, 0.85);
+/*    background-color: rgba(83, 193, 157, 0.85);*/
+  height: 300px;
+    padding: 0;
+    color: #000;
+    text-align: left;
+   	position: absolute;
+  	top: 100%;
+  width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+.tile-content h2 {
+ 	margin-top: 15px; 
+  font-size: 1.2em;
+    color: #F9B419;
+}
+.tile-content p {
+ 	font-size: 1em; 
+}
+
+.tile-content ul {
+ 	color: #000;
+ 	list-style-type: none;
+  font-weight: 300;
+}
+
+.tile-container {
+    padding-bottom: 48px;
+}   
+
+.tilejumbo {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.tile-row {
+ 	margin: 0; 
+}
+
+/* the category indicator on mobile tiles (ux vd dev) */
+.tile a .tile-content h2 span {
+  width: 40%;
+  position: absolute;
+  top: 15px;
+  right: 40px;
+color: #999;
+}
+
+/* make all fa icons same width */
+
+i.fa {
+    width: 25px;   
+}
+
+/* slide in div */
+
+.slideIn {
+    position: absolute;
+    right: -2000px;
+    top: 0;
+    visibility: visible;
+    height: 100%;
+    background: #d8d8d8;
+    width: 100%;
+    min-width: 100%;
+    padding: 30px;
+} /* slide out is #container */
+
+html body div#slide-container.jumbotron {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* ************************************ footer ************************************ */
+
+footer {
+    background: #F9B419;
+    color: #fff;
+    height: 300px;
+    padding: 40px;
+    height: auto;
+}
+
+footer ul#footernav li a, footer ul#footerinfonav li a {
+    color: #fff;
+    background: transparent;
+    display: block;
+}
+
+footer ul#footernav li a:hover, footer ul#footerinfonav li a:hover {
+    background: transparent;
+    text-decoration: none;
+    color: rgb(83, 193, 157);
+}
+
+footer ul#footernav li, footer ul#footerinfonav li {
+    display: block;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+footer .fa {
+    margin-right: 10px;   
+}
+
+
+
+footer #copyright {
+    margin-top: 10px;   
+}
+
+footer p {
+    font-family: 'Source Code Pro', Arial, sans-serif;
+    font-weight: 300;
+}
+
+footer .col-md-3 {
+    text-align: left;   
+}
+
+footer .col {
+    padding-left: 0;
+}
+
+

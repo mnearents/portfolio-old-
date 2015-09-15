@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+    <meta name="description" content="">
+    <meta name="author" content="Matt Nearents">
+    <link rel="shortcut icon" href="favicon.ico">
+      
+
+
+    <title>Matt Nearents | Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- my css file -->
+      <link href="css/screen-v1.css" rel="stylesheet">
+      <link href="css/projectcss.css" rel="stylesheet">
+      
+      <!-- font awesome -->
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      
+      <!-- JQUERY -->
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+      
+      <!-- light box -->
+      <script type="text/javascript" src="js/lightbox.min.js"></script>
+      <link href="css/lightbox.css" rel="stylesheet" />
+      
+
+      
+      <!-- my custom javascript -->
+      <script type="text/javascript" src="js/myscripts.js"></script>
+      
+      
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+<div id="project-wrapper">      
+
+ 
+
+          
+         
+        
+           <!-- preloader -->
+  
+       <div class="content no-bg">
+           
+           
+           
+           
+           
+             <div id="summary" class="project-content">
+            <div class="container">
+                <h1>McGraw-Hill Education</h1>
+                <p>I have been working at ALEKS/MHE for almost a year as a user interface designer. I have several relevant projects listed below.</p>
+               </div>
+           </div>
+           
+           
+           
+           
+           
+           
+           
+            <div id="project-ux" class="project-content">
+                 <div class="container">
+                <h1>Experience</h1>
+                <p>Projects I have worked on include (* = lead designer):</p>
+                <ul>
+                    <li>QuickTables Integration*</li>
+                    <li>ALEKS Student Module Redesign</li>
+                    <li>User Onboarding*</li>
+                    <li>College Algebra and Trigonometry Tools*</li>
+                    <li>AlEKS Mobile UI*</li>
+                    <li>Internal CMS Redesign*</li>
+                    <li>Instructor Reports*</li>
+                    
+                </ul>
+               </div>
+                
+                <div class="container">
+
+<h2 class="headline">QuickTables Integration</h2>
+                    <p>This was my first project. I took two separate products (ALEKS and QuickTables) and integrated them together for a seamless experience.</p>
+                    
+                    <h3>QuickTables Before and After:</h3>
+            <div class="row image-block">
+                      
+                        
+                         <div class="col-sm-6"><a href="images/mcgraw/quicktables.jpg" data-lightbox="quicktables1" title="Old ALEKS QuickTables"><img src="images/mcgraw/quicktables.jpg" alt="Old QuickTables Screenshot"></a></div>
+                <div class="col-sm-6"><a href="images/quicktables_new.png" data-lightbox="quicktables1" title="Old ALEKS QuickTables"><img src="images/quicktables_new.png" alt="New QuickTables Screenshot"></a></div>
+                         
+                        
+                    
+                    </div>
+           
+          
+           
+           
+           <p>My goal was primarily to update interactions within QuickTables to be more consistent with the ALEKS redesign, integrate QuickTables navigation and reports into the ALEKS navigation menu and reports dashboard, and resolve space and layout issues for iPad compatibility.</p>
+           
+           
+           
+           
+           
+                    <h2 class="headline">ALEKS Student Module Redesign</h2>
+                    
+                    
+                    <p>Before I arrived the team conducted extensive user research and was in the process of updating the ALEKS student module. I was involved in several small projects to tie up loose ends or find solutions for edge cases. These included:</p>
+           
+           <ul>
+            <li>Simplifying a report dashboard tile for the student's dashboard</li>
+            <li>Transitioning students from one objective to another</li>
+               <li>Students switching classes or sections</li>
+               <li>Completing the initial Knowledge Check with a very good or very poor score</li>
+               <li>Creating a specification for date/time copy throughout the interface</li>
+           </ul>
+                    
+                    
+           <h3>ALEKS Student Module Before and After:</h3>
+            <div class="row image-block">
+                      
+                      
+                         <div class="col-sm-6"><a href="images/classic-aleks.png" data-lightbox="quicktables1" title="Classic ALEKS Interface"><img src="images/classic-aleks.png" alt="Classic ALEKS Screenshot"></a></div>
+                       <div class="col-sm-6"><a href="images/newaleks.png" data-lightbox="quicktables1" title="New ALEKS Interface"><img src="images/newaleks.png" alt="New ALEKS Screenshot"></a></div>
+                        
+                    
+                    </div>
+           
+          
+                         
+                       
+                   
+                  
+           
+           
+           
+           
+           <h2 class="headline">User Onboarding</h2>
+                    
+                    
+                    <p>I redefined the onboarding for both students and instructors new to ALEKS. In the student module, ALEKS presents series of pop ups with "Next" buttons and hopes you remember all the stuff it pointed at. I made the onboarding more intuitive in three ways:</p>
+           
+           <ul>
+            <li>I eliminated the use of "Next" as much as possible and instead required action (like opening a menu)</li>
+            <li>I ordered the tips by necessity, reducing the number of total tips and increasing their effectiveness</li>
+               <li>I introduced the idea of exploration by creating a mechanism for students to learn about the UI when convenient for them</li>
+               <li>I changed the timing of tips to be "just in time" rather than "all at once." If something isn't useful now, we don't point it out.</li>
+           </ul>
+           
+           <p>The new flow has yet to be implemented or user tested.</p>
+                    
+                    
+          
+           
+           
+           
+           
+           
+                    
+                    
+                    
+                    
+                    <h2 class="headline">College Algebra and Trigonometry Tools</h2>
+                    
+                     <p>I was chosen to be the UX designer on ALEKS first agile development team. I designed, tested, and prototyped (Axure, HTML/CSS/JavaScript) math input tools which included complex user interactions like dragging, rotating, snapping points to a coordinate plane, and remembering calculations.<br>Our process was as follows: 
+                         
+                         <ul>
+                            <li>I receive a spec from Math Content Department for a new tool.</li>
+                             <li>I decypher which requirements are content-based and which are UI-based.</li>
+                             <li>Designed a tool I felt was user friendly based on intuition, meeting content requirements, and using familiar interaction patterns from other items or other UI students were familiar with.</li>
+                             <li>Moderated in-house usability tests with actual students.</li>
+                             <li>Iterated on initial design if necessary.</li>
+                             <li>Convert interactive prototype to development specification.</li>
+                             <li>Collaborate with development to test bugs and find deviations from the specification.</li>
+                             
+           </ul> 
+                        <p> Here are some examples: </p>
+                    
+                    <ul>
+                        <li>Polynomial graphing (HTML, CSS, JavaScript): The user can plot points on a coordinate plane. A ghost point moves with the cursor and snaps to points on the X and Y axis only. The point is plotted when the user clicks.</li>
+                        <li>Geometry manipulation (Axure): The user can drag, rotate, enlarge/shrink, and reflect a given triangle to match a target triangle.</li>
+                        <li>Damped cosine (Axure): The user can plot points on or within the bounds of e^(-x) and -e^(-x) (similar process to polynomial graphing). The point snaps to points on the coordinate plan and to points on the graphs of e.</li>
+                        <li>Graph transformations (Axure): The user can move, vertically stretch/compress, horizontally stretch/compress, or reflect the graph of a parabola.</li>
+                        <li>And many others.</li>
+                    
+                    </ul>    
+                    
+                    <p>Here is an example of an existing, very basic input tool (not one I designed):</p>
+                    
+                    <div class="row image-block">
+                      
+                         <div class="col-sm-3"></div>
+                         <div class="col-sm-6"><a href="images/mcgraw/aleks-input.jpg" data-lightbox="input" title="ALEKS input tool"><img src="images/mcgraw/aleks-input.jpg" alt="Time & Topic Report Screenshot"></a></div>
+                         <div class="col-sm-3"></div>
+                        
+                    
+                    </div>
+                    
+                      <h2 class="headline">ALEKS Mobile UI</h2>
+                    <p>Currently ALEKS is optimized for desktop and tablet. I am the lead designer on a new project to make ALEKS friendly on mobile phones. So far I have created a slide deck outlining the current UX issues and some potential solutions (wire frames) to present to executive leadership. This project will extend into 2016.</p>
+                   
+                    
+                      <h2 class="headline">Internal CMS Redesign</h2>
+                    
+                    <p>Our Content Management System was designed 10 years ago or more and is cumbersome and outdated. I just started a project to redesign specific pieces of the CMS system. So far I have conducted internal interviews with various departments. At each interview I scribble on some printed screen shots. I am compiling a sort of heat map in order to prioritize which features stay, which are removed, and which are hidden. I also have to work within certain constraints I was given. This project just started and will continue into 2016.</p>
+                    
+                
+                    <h2 class="headline">Instructor Reports</h2>
+                    
+                    <p>I worked with another UX designer to redesign three data reports for instructors. The other designer was pulled onto other projects, so now I am the lead designer. I visited a couple of schools in Houston and Austin Texas to conduct contextual inquiries with several teachers. I also conducted interview sessions to gather requirements for the redesign.<br>The requirements were translated into stories for the future agile work. Currently I am creating an interactive prototype for remote user testing. This project is also ongoing.</p>
+                   
+                    
+</div><!-- end container -->
+           </div>
+           
+           
+           
+           
+           
+           
+           
+          
+           
+<!--
+            <div id="project-ux" class="project-content col-md-4">
+                <div class="project-content-inner">
+                <h1>User Experience</h1>
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+           </div>
+           
+           <div id="project-vd" class="project-content col-md-4">
+               <div class="project-content-inner">
+                <h1>Visual Design</h1>
+                   </div>
+           </div>
+           
+           <div id="project-dev" class="project-content col-md-4">
+               <div class="project-content-inner">
+                <h1>Development</h1>
+                   </div>
+           </div>
+-->
+           
+   <div id="project-footer" class="project-content">
+               <?php include $_SERVER['DOCUMENT_ROOT'] . '/portfolio/modules/project-footer.php' ?>
+               
+               
+               </div>
+           
+
+           
+        </div>
+          </div>
+      
+    </body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+    <meta name="description" content="">
+    <meta name="author" content="Matt Nearents">
+    <link rel="shortcut icon" href="favicon.ico">
+      
+
+
+    <title>Matt Nearents | Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- my css file -->
+      <link href="css/screen-v1.css" rel="stylesheet">
+      <link href="css/projectcss.css" rel="stylesheet">
+      
+      <!-- font awesome -->
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      
+      <!-- JQUERY -->
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+      
+      <!-- light box -->
+      <script type="text/javascript" src="js/lightbox.min.js"></script>
+      <link href="css/lightbox.css" rel="stylesheet" />
+      
+
+      
+      <!-- my custom javascript -->
+      <script type="text/javascript" src="js/myscripts.js"></script>
+      
+      
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+          <div id="project-wrapper">  
+       <div class="content no-bg">
+           
+          
+           
+           
+           <div id="summary" class="project-content">
+            <div class="container">
+                <h1>Scandia Family Fun Center</h1>
+                <a href="http://www.scandiafun.com" title="Scandia Website">www.scandiafun.com</a>
+                <p>Scandia is a family fun center with three locations in California. The project was a complete redesign of their existing web site. Logo and identity were already done. I improved the layout and usability of the web site.</p>
+               </div>
+           </div>
+           
+            <div id="project-ux" class="project-content">
+                <div class="container">
+                <h1>User Experience</h1>
+
+<h2 class="headline">PROBLEM</h2>
+                    <p>The existing web site was riddled with usability issues. I performed a heuristic analysis in order to fix the navigation and basic page layout. Here is a screen shot of the old web site:</p>
+                    
+                    <div class="row image-block">
+                        <div class="col-sm-3 hidden-xs"></div>
+                        <div class="col-xs-12 col-sm-6"><a href="images/scandia/scandia-old.jpg" data-lightbox="scandiaold" title="Click for bigger image"><img src="images/scandia/scandia-old.jpg" alt="Scandia's original web site"></a></div>
+                    <div class="col-sm-3 hidden-xs"></div>
+                    </div>
+                    
+                    <p>The Scandia web site was assessed according to Jacob Nielson’s 10 usability heuristics. Below is a list of problems, the heuristics violated, and the severity. The next section contains a sample of my redesign intended to fix these problems as completely as possible.</p>
+                    
+                    <h3>Severity Rating Scale</h3>
+                    
+                    <ul >
+                        <li>0 - Not really a usability problem</li>
+                        <li>1 - Cosmetic problem</li>
+                        <li>2 - Minor usability problem</li>
+                        <li>3 - Major usability problem; important to fix</li>
+                        <li>4 - Usability disaster, imperative to fix</li>
+                    </ul>
+                    
+                     <h3>Heuristics Evaluated</h3>
+                    
+                    <ul >
+                        
+                        <li>1 - Visibility of system status</li>
+                        <li>2 - Match between system and the real world</li>
+                        <li>3 - User control and freedom</li>
+                        <li>4 - Consistency and standards</li>
+                        <li>5 - Error prevention</li>
+                        <li>6 - Recognition rather than recall</li>
+                        <li>7 - Flexibility and efficiency of use<li>
+                        <li>8 - Aesthetic and minimalist design</li>
+                        <li>9 - Help users recognize, diagnose, and recover from errors</li>
+                        <li>10 - Help and documentation</li>
+                    </ul>
+                    
+                   
+                    
+                    <h3>Issues</h3>
+                    
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <p>Issue: Ambiguous Navigation Terms<br>Heuristics: 2, 5, 8<br>Severity: 3<br><br>Details:<br>The user will have difficulty in distinguishing the different navigation links. To host an office party, one might choose “parties,” “group sales,” or “events.” The correct choices is “group sales.” The parties link leads to birthday party information for children. The “events” link leads to a promotion for discounts for good grades.<br><br>Solution:<br>The navigation links should be made more clear by using more specific terms. I suggest replacing “parties,” “group sales,” and “events” with “birthdays,” “group events,” and “promotions” respectively.</p>
+                        </div>
+                        <div class="col-sm-3">
+                         <p>Issue: No Link to Return to Landing Page<br>Heuristics: 2, 3, 8, 9<br>Severity: 2<br><br>Details:<br>The landing page allows users to select from one of three locations. Once in a specific location, there is no return. The logo is not linked back to the landing page.<br><br>Solution:<br>Link the Scandia logo to the main landing page. Also, add a link that says “choose another Scandia location.” Make the current location more prominent on the page.</p>
+                        </div>
+                        <div class="col-sm-3">
+                        <p>Issue: Cluttered Inconsistent Layout<br>Heuristics: 8, 4<br>Severity: 4<br><br>Details:<br>The site has no consistent layout. Each location also differs from the others. The lack of consistency in colors, layout, hierarchy, and navigation make this site contradictory to the nature of a family “fun” center.<br><br>Solution:<br>An overarching theme should be employed. The navigation should be consistent across pages. Colors should be used to create a logical hierarchy of information. Graphics should bring out the fun nature of a family fun center and motivate users to \ visit the park.</p>
+                        </div>
+                        <div class="col-sm-3">
+                          <p>Issue: No Adaptation for Mobile Viewing<br>Heuristics: 4<br>Severity: 4<br><br>Details:<br>The site does not adapt for mobile viewing. In my opinion, this is no longer optional. Laptops are phasing out while mobile devices are increasing in popularity.<br><br>Solution:<br>Fluid layout that adapts to smaller screen sizes. The site should reduce the amount of information down to only the most important for mobile devices.</p>
+                        </div>
+                    
+                    </div>
+                    
+                    <p class="bump">I wasn't paid to do any usability work, so I probably could have done more, but I was refreshing my knowledge of web coding and so coding consumed most of my time. Here is a screen shot of the current web site. It went through three or four design iterations to reach this point:</p>
+                    
+                    <div class="row image-block">
+                        <div class="col-xs-4"><a href="images/scandia/scandia1.jpg" data-lightbox="scandianewdesk" title="Click for bigger image"><img src="images/scandia/scandia1.jpg" alt="Scandia's new web site"></a></div>
+                        <div class="col-xs-4"><a href="images/scandia/scandia2.jpg" data-lightbox="scandianewdesk" title="Click for bigger image"><img src="images/scandia/scandia2.jpg" alt="Scandia's new web site"></a></div>
+                        <div class="col-xs-4"><a href="images/scandia/scandia3.jpg" data-lightbox="scandianewdesk" title="Click for bigger image"><img src="images/scandia/scandia3.jpg" alt="Scandia's new web site"></a></div>
+                    </div>
+                    
+                    <p>Paragraph pointing out the usability fixes
+                    
+                    <br><br>I also made the site responsive to mobile without the use of a framework. Here are screen shots of the mobile site:
+                    </p>
+                    
+                     <div class="row image-block">
+                        <div class="col-xs-4"><a href="images/scandia/scandia-mobile1.jpg" data-lightbox="scandianewmobile" title="Click for bigger image"><img src="images/scandia/scandia-mobile1.jpg" alt="Scandia's new web site"></a></div>
+                        <div class="col-xs-4"><a href="images/scandia/scandia-mobile2.jpg" data-lightbox="scandianewmobile" title="Click for bigger image"><img src="images/scandia/scandia-mobile2.jpg" alt="Scandia's new web site"></a></div>
+                        <div class="col-xs-4"><a href="images/scandia/scandia-mobile3.jpg" data-lightbox="scandianewmobile" title="Click for bigger image"><img src="images/scandia/scandia-mobile3.jpg" alt="Scandia's new web site"></a></div>
+                      
+                    </div>
+                    
+                    <p>I wanted to follow usability best practices when developing the mobile site. For this reason I converted the navigation to a dropdown menu at the top of the screen. I also repeated the navigation at the bottom of each page as many mobile sites do. The mobile site is far from finished. I still have a lot of fit and finish to do with it. There are a lot of funky styling issues.</p>
+                    
+</div><!-- end container -->
+           </div>
+           
+<!--
+           <div id="project-vd" class="project-content">
+               <div class="container">
+                <h1>Visual Design</h1>
+               <p>I purposefully did not use the typical slick, Pinterest-worthy design when I gave Scandia a makeover. I felt like that would have been boring and inappropriate for the audience. It's like designing candy wrappers with Helvetica, it doesn't work for kids. What is important is that it looks fun. And the owner of Scandia has not stopped telling me how much he likes to new site, even a year after it was released. So I call this a success. (Note: The Scandia logo and viking illustrations were already done).</p>
+
+               </div>  end container 
+          
+           </div>
+-->
+           
+<!--
+           <div id="project-dev" class="project-content">
+               <div class="container">
+                <h1>Development</h1>
+                   
+                   
+                   <p>I started the site in November of 2012 and am still their go-to person for keeping the site up to date with prices, hours, and other content.<br><br>
+                   
+                       Designing this site was a good experience because I was able to refresh my knoweldge of web design from college coursework as well as go above and beyond basic knowledge. I made the site mobile responsive without using a CSS framework. I found media queries that worked well and styled them appropriately.
+                       
+                    <br><br>
+                       The page makes use of PHP modules to load content that is common across all pages. The navigation is one PHP file loaded in with an INCLUDE statement. On each page I have a PHP variable called &quot;page&quot; whose value is the name of the page. In the PHP navigation file, I use if statements to determine which navigation link is active based on the current page. I also use if statements to hide navigation links that are not applicable to the specific park using a variable called &quot;park.&quot;
+                       <br><br>
+                       When I first created the web site, the mobile site was created entirely using PHP includes. I would include mobile content rather than making the content adaptive. I decided to re-write the entire site to make it simpler from a development perspective as well as responsive.<br><br>
+                       
+                       Using pure Javascript I built a widget for showing a list of rides which acts as a menu for showing pictures of those rides. The user selects a ride and its corresponding images show up on the right. There is a large image and some smaller thumbnails. Clicking a thumbnail places that image in the large preview area. Clicking on a new ride hides the current ride images and shows the new. The widget is not implemented yet as I am working on mobile styling.
+                   </p>
+                   
+                   
+                   
+                   
+                   </div> end container
+           </div>
+-->
+           
+          
+           
+<!--
+            <div id="project-ux" class="project-content col-md-4">
+                <div class="project-content-inner">
+                <h1>User Experience</h1>
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+           </div>
+           
+           <div id="project-vd" class="project-content col-md-4">
+               <div class="project-content-inner">
+                <h1>Visual Design</h1>
+                   </div>
+           </div>
+           
+           <div id="project-dev" class="project-content col-md-4">
+               <div class="project-content-inner">
+                <h1>Development</h1>
+                   </div>
+           </div>
+-->
+           
+          
+                  <div id="project-footer" class="project-content">
+               <?php include $_SERVER['DOCUMENT_ROOT'] . '/portfolio/modules/project-footer.php' ?>
+               
+               
+               
+               
+               </div>
+           
+              </div>
+           
+        </div>
+          
+    
+    </body>
+</html>

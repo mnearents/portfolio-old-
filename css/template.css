@@ -1,0 +1,363 @@
+/* *************** Logged in Page ************** */
+
+div.side-bar {
+    background: #222B30;
+    width: 80px;
+    height: 100vh;
+    z-index: 2;
+  	float: left;
+  padding-top: 88px;
+    color: #e2e2e2;
+}
+
+ul#tools {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul#tools li {
+  width: 80px;
+  height: 60px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+ul#tools li.active {
+ 	cursor: pointer; 
+}
+
+ul#tools li div {
+  display: block;
+  width: 80px;
+  height: 60px;
+}
+
+ul#tools li.active:hover {
+ 	background: #231F20; 
+}
+
+ul#tools li.active div.newfolder {
+  background: url('../icons/newfolder-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.active div.upload {
+  background: url('../icons/upload-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+
+/* ************ inactive states *************** */
+
+ul#tools li.inactive div.share {
+  background: url('../icons/share-inactive.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.inactive div.download {
+  background: url('../icons/download-inactive.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.inactive div.rename {
+  background: url('../icons/rename-inactive.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.inactive div.delete {
+  background: url('../icons/delete-inactive.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+/* ************ end inactive states *************** */
+
+
+
+/* ************ active states *************** */
+ul#tools li.active div.share {
+  background: url('../icons/share-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.active div.download {
+  background: url('../icons/download-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.active div.rename {
+  background: url('../icons/rename-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+ul#tools li.active div.delete {
+  background: url('../icons/delete-active.png');
+  background-position: center center;
+  background-size: 42px 40px;
+  background-repeat: no-repeat;
+}
+/* ************ end active states *************** */
+
+
+ul#tools li div.toolButtonDivider {
+ 	border-bottom: 2px solid #4B626B;
+  height: 32px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+
+div#logo-div {
+ 	width: 80px;
+  height: 68px;
+  background: #f4be1b;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+body#loggedInBody {
+    background: #f2f2f2;   
+}
+
+div.outer-wrapper {
+
+    width: 100%;
+    height: 100vh;
+    padding: 0 0 20px 0;
+}
+
+div.center-wrapper {
+   
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  height: 100vh;
+  	
+}
+
+div.content-wrapper {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    padding: 20px 20px 20px 100px;
+}
+
+div.top-header {
+  position: absolute;
+  top: 0; 
+  left:0;
+  z-index: 1;
+   width: 100%;
+  background: #f4be1b;
+  height: 68px;
+}
+
+div.the-content {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 3px;
+  	padding: 68px 0 0 0;
+}
+
+div.inner-content {
+ 	background: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+span.name-span {
+ 	height: 100%;
+    line-height: 66px;
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+div.dropdown {
+ 	display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 9px;
+  padding: 4px 0;
+	background: #231F20;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+div.dropdown div {
+ 	height: 40px;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+div.dropdown div.dropdown-avatar {
+ 	width: 30px;
+  background: url('../images/circle-avatar.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+	margin-left: 10px;
+  
+}
+
+div.dropdown div.dropdown-name {
+  line-height: 39px;
+	font-size: 1.1em;
+  color: #e2e2e2;
+}
+
+div.dropdown div.caret {
+  margin-top: 18px;
+  color: #e2e2e2;
+}
+
+div ul.dropdown-menu {
+    background: #231F20;
+}
+
+ul.dropdown-menu li a{
+    color: #e2e2e2;  
+  padding-bottom: 5px;
+}
+
+ul.dropdown-menu li a:hover {
+ 	background: #4B626B;
+  color: #fff;
+}
+
+/* notifications dropdown */
+div.notifications {
+ 	display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 9px;
+  padding: 4px 0;
+	background: #231F20;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+div.notifications div.notification-toggle {
+ 	width: 100%;
+  height: 100%;
+  background: url('../icons/notification-icon.png');
+  background-size: 30px 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+div.notifications div.notification-badge {
+ 	width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 99px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* ************** audio table *************** */
+
+div.audioTableTitle {
+  font-size: 1.2em;
+ 	padding: 0 20px 20px 20px;
+}
+
+table thead {
+ 	padding: 0 20px;
+  background: #e2e2e2; 
+}
+
+ul.sharedWithAvatars {
+ 	list-style-type: none;
+  padding: 0;
+  margin: 0;
+    height: 22px;
+}
+
+ul.sharedWithAvatars li.share-avatar {
+ 	display: inline-block; 
+  width: 22px;
+  height: 22px;
+  background: url('../images/circle-avatar.png');
+    background-size: 22px 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cellMedia {
+    display: none;
+  padding-top: 10px;
+
+}
+
+.audioTable tr.normal, .audioTable tr.folderCell {
+    cursor: pointer;
+  height: 50px;
+  
+}
+
+.audioTable > tbody > tr > th { 
+  padding-top: 14px;
+  
+}
+
+.audioTable > tbody > tr > th:first-child { 
+  padding-left: 20px;
+  width: 50px;
+  
+}
+
+.audioTable tr div.audioTitle {
+ 	width: 300px;
+}
+
+.audioTable tr.expanded {
+    height: 100px;
+}
+
+.audioTable th > span.audio-icon {
+    width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+  display: inline-block;
+  background: url('../icons/audio-icon.png');
+  background-size: 20px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.audioTable th > span.folder-icon {
+    width: 20px;
+  height: 20px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background: url('../icons/folder-icon.png');
+  background-size: 20px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

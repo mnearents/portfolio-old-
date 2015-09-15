@@ -1,0 +1,960 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
+/* UNDER CONSTRUCTION */
+
+.construction {
+ 	position: fixed;
+  	left: 25px;
+  	top: 0;
+		width: 350px;
+  	background: red;
+  	text-align: left;
+  	padding: 5px;
+  	border-radius: 0 0 5px 5px;
+}
+
+.construction .left {
+ 	padding-left: 5px; 
+  	color: white;
+}
+
+.construction .left span + span {
+ 	margin-left: 3px !important; 
+}
+
+.construction .right {
+ 	float: right;
+  margin-top: -25px;
+  font-size: 1.4em;
+  color: white;
+    cursor: pointer;
+}
+
+.wrench {
+ 	position: absolute;
+  	left: 50px;
+  	font-size: 2em;
+  	color: red;
+  	cursor: default;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+/*    overflow-x: hidden;*/
+}
+
+body {
+    overflow-x: hidden; 
+  	height: 100%;
+        font-family: 'Open Sans';
+    font-weight: 400;
+    background-color: #f2f2f2;
+}
+
+html body div#logo h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #424242;
+    text-decoration: none;
+    padding-left: 0;
+} 
+
+ul{
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 0;
+} 
+
+html body div.jumbotron div.container h1, .content h1 {
+ 	text-align: center;
+  font-family: 'Alegreya', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+  font-size: 2em !important;
+  margin-bottom: 25px;
+  margin-top: 0;
+    color: #112230;
+}
+
+html body div#disappear div.container h1, html body div.jumbotron h1 {
+/*    color: rgb(83, 193, 157);*/
+    color: #666;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.jumbotron {
+    margin-bottom: 0;   
+}
+
+.float-none {
+    float: none;   
+}
+
+.col-md-3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#disappear {
+    position: relative; 
+    height: 100%;
+}
+
+/* ************************************** header/navigation stuff ********************************************** */
+
+/* hidden navigation */
+header ul.nav li a, #mobile-header ul.nav li a {
+     color: #424242;
+    font-weight: 300;
+}
+
+header ul.nav li.active a, #mobile-header ul.nav li.active a, #lowerNav.projectNav ul.nav li.active a {
+    color: rgb(83, 193, 157);
+    background: #fff;
+}
+
+ul.nav li a:hover, #projectHeader ul.nav li a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: rgb(83, 193, 157);
+}
+
+/*
+ul.dropdown-menu {
+
+    visibility: hidden;
+    background: #000;
+}
+*/
+
+/*
+html body header .mobile-menu {
+    visibility: visible;   
+}
+*/
+
+header {
+    background: #fff; 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    display: none;
+  border-bottom: 1px solid #f2f2f2;
+/*    box-shadow: 0 1px 5px #898989;*/
+}
+
+
+#mobile-header {
+    background: #fff; 
+    border-bottom: 1px solid #f2f2f2;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.nav > li > a:focus {
+    background: transparent; 
+    color: #424242;
+    outline-style: none;
+}
+
+/*
+.dropdown:hover ul.dropdown-menu {
+   visibility: block;
+}
+*/
+
+.dropdown-menu-mobile {
+    position: absolute;
+    display: none;
+    top: 50px;
+    left: 0;
+    list-style-type: none;
+  	background: #fff; 
+  	width: 100%;
+  	text-align: right;
+}
+
+.dropdown-menu-mobile li a, .dropdown-menu-mobile li{
+    padding: 20px 8px; 
+  	width: 100%;
+}
+
+.topli {
+      
+}
+
+#lowerNav {
+    margin-top: 50px;   
+}
+
+/* ************************************** div with background image ********************************************** */
+#fixed-bg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+/*    background-image: url("/images/snowbg.jpg");*/
+    background-image: url("../images/snowbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;
+}
+
+#fixed-bg.first {
+    transition: background-image 1s ease-in-out;
+    background-image: url("../images/snowbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-position: center center;
+    
+}
+
+
+#photo-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  	margin: 0 5px 5px 0;
+    color: #525252;
+  	font-weight: 300;
+  	font-size: .8em;
+}
+
+div#logo {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+  	position: relative;   
+}
+
+#name-logo {
+ 	position: absolute;
+  width: 100%;
+  top: 30%;
+    left: 0;
+}
+
+
+div#logo-bg {
+    background-image: url('../images/logo-v2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:250px 250px;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+div#logo-bg:hover {
+    cursor: pointer;
+     background-image: url('../images/logo-v2-hover.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:250px 250px;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+div#logo div#name-logo h1 {
+    
+    font-weight: 300;
+}
+
+h1#firstName {
+    margin-bottom: 0;
+    font-size: 3.8em;
+}
+
+h1#lastName {
+    margin-top: -15px;
+    font-size: 3.6em;
+}
+
+/* visible navigation under logo */
+div#logo ul li {
+    display: inline;
+}
+
+div#logo ul li a {
+    color: #000;
+    font-weight: 300;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.scroll-down-arrow {
+ 	text-align: center;
+  width: 100%;
+  font-size: 3em;
+  color: #000;
+  cursor: pointer;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+
+.scroll-down-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(83, 193, 157);
+}
+
+
+
+/* ************************************** portfolio ********************************************** */
+
+
+
+/* filtering mechanism */
+
+ul#filter-ul li:hover, ul#filter-ul li.selected {
+    background: rgb(83, 193, 157);
+    color: #fff;
+}
+
+#filter-container {
+    text-align: center;   
+}
+
+#filter-container {
+    margin-bottom: 20px;   
+}
+
+ul#filter-ul {
+ 	list-style-type: none;
+   
+}
+
+ul#filter-ul li {
+ 	display: inline-block;
+  color: black;
+  background: #fff;
+  	width: 150px;
+        border-radius: 5px;
+        padding: 10px;
+        font-weight: 400;
+        margin: 0px 8px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+  		cursor: pointer;
+}
+
+div#port-settings ul li {
+ 	color: #666; 
+  font-size: .8em;
+  padding: 0 5px;
+  cursor: pointer;
+    list-style-type: none;
+    display: inline;
+}
+
+div#port-settings ul li:hover {
+ 	color: rgb(83, 193, 157);
+}
+
+div#port-settings ul li.chosen {
+ 	color:  rgb(83, 193, 157);
+}
+
+div#port-settings {
+ 	
+height: 35px;
+  width: auto;
+  color: #666;
+       
+}
+
+div#port-settings span {
+ 	float: left;
+  width: 40px;
+    font-size: .8em;
+margin-top: 4px;
+
+  
+}
+
+div#port-settings ul li.filterMobile {
+    width: 50px;
+    float: right;
+    text-align: right;
+    font-size: 2em;
+    position: relative;
+    overflow: visible;
+}
+
+div#mobFilterDiv {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: 1000;
+    background: #fff;
+    font-size: .8em;
+    font-family: 'Open Sans', Arial, sans-serif; 
+    padding: 20px;  
+    width: 300px;
+    text-align: left;
+}
+
+div#mobFilterDiv label {
+    font-size: .7em;
+    padding-left: 20px;  
+    font-weight: 300;
+}
+
+div#mobFilterDiv:hover label {
+    color: #666666;
+}   
+
+div#port-settings ul li.filterMobile:hover div#mobFilterDiv label {
+    color: #666666;   
+}
+
+div.tile-container div#port-settings ul.filterUl li.filter {
+    display: block;
+    padding: 20px;
+}
+
+div.tile-container div#port-settings ul.filterUl li.filter.selected {
+    color: rgb(83, 193, 157);
+}
+
+#container {
+    background: #f2f2f2;
+    position: relative;
+    min-height: 1122px;
+}
+
+.desktop-tile-row .tile {
+  color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  height: auto;
+    min-height: 300px;
+    position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.desktop-tile-row .tile.ibm {
+    background: url(../images/tile-ibm.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.scandia {
+    background: url(../images/tile-scandia.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.school {
+    background: url(../images/tile-school.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.audiothrive {
+    background: url(../images/tile-audio.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.myfastpc {
+    background: url(../images/tile-myfastpc.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.logos {
+    background: url(../images/scandia-coaster.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.scripturegames {
+    background: url(../images/nmsu.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.easydial {
+    background: url(../images/tile-easydial.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.virtualenvelopes {
+    background: url(../images/scandia-coaster.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.desktop-tile-row .tile.tempProject {
+    background: url(../images/temp-image.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mobile-tile-row .tile {
+    height: 44px;   
+}
+
+.mobile-tile-row .tile .tile-content {
+    height: 44px;   
+}
+
+
+.tile a {
+ text-decoration: none;   
+}
+
+
+
+.tile-content {
+    background-color: hsla(0, 0%, 100%, 0.85);
+/*    background-color: rgba(83, 193, 157, 0.85);*/
+  height: 300px;
+    padding: 0;
+    color: #000;
+    text-align: left;
+   	position: absolute;
+  	top: 100%;
+  width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+.tile-content h2 {
+ 	margin-top: 15px; 
+  font-size: 1.2em;
+}
+.tile-content p {
+ 	font-size: 1em; 
+}
+
+.tile-content ul {
+ 	color: #000;
+ 	list-style-type: none;
+  font-weight: 300;
+}
+
+.tile-container {
+    padding-bottom: 48px;
+}   
+
+.tilejumbo {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.tile-row {
+ 	margin: 0; 
+}
+
+/* the category indicator on mobile tiles (ux vd dev) */
+.tile a .tile-content h2 span {
+  width: 40%;
+  position: absolute;
+  top: 15px;
+  right: 40px;
+color: #999;
+}
+
+/* make all fa icons same width */
+
+i.fa {
+    width: 25px;   
+}
+
+/* slide in div */
+
+.slideIn {
+    position: absolute;
+    right: -2000px;
+    top: 0;
+    visibility: visible;
+    height: 100%;
+    background: #d8d8d8;
+    width: 100%;
+    min-width: 100%;
+    padding: 30px;
+} /* slide out is #container */
+
+html body div#slide-container.jumbotron {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* ************************************** explanation ********************************************** */
+
+#explanation {
+/*    background: rgb(83, 193, 157);   */
+    background: #f2f2f2;
+    color: #424242;
+}
+
+#explanation .container p {
+    font-size: 18px;   
+}
+
+
+/* ************************************** skills ********************************************** */
+#skills {
+    background: #ffffff;  
+
+    padding-bottom: 120px;
+}
+
+.chart {
+ 	position: relative;
+  	float: left;
+}
+
+.chart span {
+ 	position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.bar {
+    position: relative;
+}
+
+.barbg {
+    
+     background: #ececec;
+  position: relative;
+  height: 200px;
+
+}
+
+.fill {
+ 	background: rgb(83, 193, 157);
+  position: absolute;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.barMetric {
+    position: absolute;
+    bottom: -60px;
+    left: -250px;
+    width: 200px;
+    text-align: right;
+    
+    -webkit-transform: translate(100px) rotate(-30deg);
+    -webkit-transform-origin: 60% 100%;
+    
+    -o-transform:translate(100px) rotate(-30deg);
+    -o-transform-origin: 60% 100%;
+    
+    transform: translate(100px) rotate(-30deg);
+    transform-origin:60% 100%;
+}
+
+
+/* ************************************** about ********************************************** */
+#about {
+    background: #fff;
+    color: #000;
+}
+
+.image img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+#about div.container h2 {
+    margin-top: 0;   
+}
+
+/* ************************************** contact ********************************************** */
+
+#contact {
+    background: #f2f2f2; 
+    color: #000;
+}
+
+.form-container {
+    padding: 0;
+}
+
+.form {
+  margin: 0 auto;
+  width: 100%;
+font-family: arial, sans-serif;
+  font-weight: 400;
+}
+
+.form input {
+ 	width: 100%; 
+  margin-top: 10px;
+    margin-bottom: 10px;
+  height: 60px;
+    font-size: 1.5em;
+    font-weight: 300;
+  border: transparent;
+  border-radius: 5px;
+  color: #777;
+  padding-left: 20px;
+  background: #fff;
+}
+
+.form textarea {
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: transparent;
+    border-radius: 5px;
+    color: #777777;
+    padding: 20px;
+  	background: #fff;
+}
+
+.form #button {
+  width: 100%;
+  height: 44px;
+  background: rgb(83, 193, 157);
+border: transparent;
+  border-radius: 5px;
+    color: #fff;
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#phperrors, div#sendAnother {
+    color: #ff0000;
+  	width: 100%;
+    display: none;
+}
+
+div#phperrors ul {
+    list-style: none;
+    width: 400px;
+    margin-left: -35px;
+    margin-top: -5px;
+}
+
+div#phperrors .success {
+  background: #B6EFD1;
+  color: #3F8E64;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+ div#sendAnother div#send-another {
+     background: #b6efd1;
+  color: #3f8e64;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.2em;
+  border-radius: 3px;
+ }
+
+div#phperrors .left, div#sendAnother .left {
+ float: left; 
+}
+
+div#phperrors .right {
+ 	float: right; 
+  cursor: pointer;
+}
+
+div#sendAnother {
+    margin-top: 20px;   
+    cursor: pointer;
+
+}
+
+div#sendAnother:hover div#send-another {
+    background: #9be0ba;
+}
+
+/*
+div#send-another {
+    display: none;   
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-decoration: underline;
+    color: #424242;
+    cursor: pointer;
+}
+*/
+
+/* ************************************ footer ************************************ */
+
+footer {
+    background: #424242;
+    color: #fff;
+    height: 300px;
+    padding: 40px;
+    height: auto;
+}
+
+footer ul#footernav li a, footer ul#footerinfonav li a {
+    color: #fff;
+    background: transparent;
+    display: block;
+}
+
+footer ul#footernav li a:hover, footer ul#footerinfonav li a:hover {
+    background: transparent;
+    text-decoration: none;
+    color: rgb(83, 193, 157);
+}
+
+footer ul#footernav li, footer ul#footerinfonav li {
+    display: block;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+footer .fa {
+    margin-right: 10px;   
+}
+
+
+
+footer #copyright {
+    margin-top: 10px;   
+}
+
+footer p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+footer .col-md-3 {
+    text-align: left;   
+}
+
+footer .col {
+    padding-left: 0;
+}
+
+
+/* Small devices (tablets, 768px and up) 
+
+media (min-width: 1051px)
+*/
+@media (max-width: 768px) { 
+    
+.tile {
+ 	height: 100px !important;
+}
+    
+div.tile-container div.container div#port-settings {
+    background: #fff;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 38px;
+}
+    
+html body .desktop-tile-row .tile {
+  color: #ffffff;
+  cursor: pointer;
+  text-align: left;
+  height: 44px !important;
+    min-height: 44px;
+    position: relative;
+  margin: 0 0 10px 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html body .desktop-tile-row .tile .tile-content {
+    top: 0;
+    text-align: left;
+    font-size: .8em;
+    padding-left: 10px;
+    
+}
+
+html body .desktop-tile-row .tile .tile-content h2, html body .desktop-tile-row .tile .tile-content p, html body .desktop-tile-row .tile .tile-content li {
+    font-family: 'Open Sans', Arial, sans-serif !important;
+    font-weight: 300;
+}
+
+html body #container {
+
+    min-height: inherit;
+}
+
+html body .desktop-tile-row .tile .tile-content h2 {
+        width: 50%;
+        float: left;
+}
+
+html body .desktop-tile-row .tile .tile-content span.mobile-drill {
+    width: 30px;
+    float: right;
+    position: absolute;
+    top: 18px;
+    right: 0;
+}
+
+html body .desktop-tile-row .tile.ibm, html body .desktop-tile-row .tile.school, html body .desktop-tile-row .tile.audiothrive, html body .desktop-tile-row .tile.scandia, html body .desktop-tile-row .tile.myfastpc, html body .desktop-tile-row .tile.easydial, html body .desktop-tile-row .tile.virtualenvelopes, html body .desktop-tile-row .tile.tempProject {
+    background: #fff;
+}
+    
+} /* End 769px max-width */
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+}

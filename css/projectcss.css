@@ -194,8 +194,8 @@ div.section.project-summary {
 }
 
 #summary {
-   background: #F9B419;
-  color: #fff;
+   background: #FFFC01;
+  color: #3C4042;
 }
 
 #summary a {
@@ -333,7 +333,7 @@ dd {
 }
 
 #project-footer {
-    background: #F9B419;
+    background: #43DD9E;
     color: #fff;
     height: 300px;
     padding: 40px;

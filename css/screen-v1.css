@@ -245,8 +245,8 @@ div.tile-container div#port-settings ul.filterUl li.filter.selected {
     background-repeat: no-repeat;
 }
 
-.desktop-tile-row .tile.myfastpc {
-    background: url("../images/tile-myfastpc.png");
+.desktop-tile-row .tile.divvy {
+    background: url("../images/tile-divvy.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

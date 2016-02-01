@@ -78,8 +78,8 @@ h3 {
 /* filtering mechanism */
 
 ul#filter-ul li:hover, ul#filter-ul li.selected {
-    background: #F9B419;
-    color: #fff;
+    background: #FFFC01;
+    color: #3C4042;
 }
 
 #filter-container {
@@ -109,79 +109,6 @@ ul#filter-ul li {
         -webkit-box-sizing: border-box;
   		cursor: pointer;
 }
-
-/*
-div#port-settings ul li {
- 	color: #666; 
-  font-size: .8em;
-  padding: 0 5px;
-  cursor: pointer;
-    list-style-type: none;
-    display: inline;
-}
-
-div#port-settings ul li:hover {
- 	color: rgb(83, 193, 157);
-}
-
-div#port-settings ul li.chosen {
- 	color:  rgb(83, 193, 157);
-}
-
-div#port-settings {
- 	
-height: 35px;
-  width: auto;
-  color: #666;
-       
-}
-
-div#port-settings span {
- 	float: left;
-  width: 40px;
-    font-size: .8em;
-margin-top: 4px;
-
-  
-}
-
-div#port-settings ul li.filterMobile {
-    width: 50px;
-    float: right;
-    text-align: right;
-    font-size: 2em;
-    position: relative;
-    overflow: visible;
-}
-
-div#mobFilterDiv {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 35px;
-    z-index: 1000;
-    background: #fff;
-    font-size: .8em;
-    font-family: 'Source Code Pro', Arial, sans-serif; 
-    padding: 20px;  
-    width: 300px;
-    text-align: left;
-}
-
-div#mobFilterDiv label {
-    font-size: .7em;
-    padding-left: 20px;  
-    font-weight: 300;
-}
-
-div#mobFilterDiv:hover label {
-    color: #666666;
-}   
-
-div#port-settings ul li.filterMobile:hover div#mobFilterDiv label {
-    color: #666666;   
-}
-*/
 
 div.tile-container div#port-settings ul.filterUl li.filter {
     display: block;
@@ -313,7 +240,7 @@ div.tile-container div#port-settings ul.filterUl li.filter.selected {
 .tile-content h2 {
  	margin-top: 15px; 
   font-size: 1.2em;
-    color: #F9B419;
+    color: #43DD9E;
 }
 .tile-content p {
  	font-size: 1em; 
@@ -383,7 +310,7 @@ html body div#slide-container.jumbotron {
 /* ************************************ footer ************************************ */
 
 footer {
-    background: #F9B419;
+    background: #43DD9E;
     color: #fff;
     height: 300px;
     padding: 40px;
